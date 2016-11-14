@@ -18,7 +18,14 @@ curl -sS -X POST -H "Content-Type:application/json" -d "{
    \"username\": \"${1}\",
    \"description\": \"This is a test-service\",
    \"repository\": {
-     \"url\": \"https://github.com/tutumcloud/hello-world\",
+     \"url\": \"https://github.com/caicloud/cyclone\",
      \"vcs\": \"git\"
+   },
+   \"profile\": {
+     \"setting\": \"sendwhenfinished\",
+     \"profiles\": [{
+       \"email\": \"gaocegege@hotmail.com\",
+       \"cellphone\": \"useless\"
+     }]
    }
-}" "http://localhost:7099/api/v0.1/fake-user-id/services"
+}" "http://118.184.0.105:7099/api/v0.1/fake-user-id/services"
