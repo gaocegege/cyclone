@@ -9,4 +9,5 @@ integration:
     - cd $WORKDIR
     - ls -l
     - ls -l ./tests
+    - cat ./tests/run-unit-test.sh
     - ./tests/run-unit-test.sh

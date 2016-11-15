@@ -5,5 +5,5 @@
 CYCLONE_ROOT=$(dirname "${BASH_SOURCE}")/..
 
 cd $CYCLONE_ROOT
-godep go test -cover $(go list ./... | grep -v '/vendor/' | grep -v '/tests/')
+go test -cover $(go list ./... | grep -v '/vendor/' | grep -v '/tests/')
 cd - > /dev/null

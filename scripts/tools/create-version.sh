@@ -9,7 +9,7 @@ if [[ $# -ne 1 ]]; then
 fi
 
 curl -sS -X POST -H "Content-Type:application/json" -d "{
-   \"name\": \"v0.1.0\",
+   \"name\": \"v0.1.1\",
    \"description\": \"just for test\",
    \"service_id\": \"$1\",
    \"operation\": \"integration\"
