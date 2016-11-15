@@ -18,7 +18,7 @@ curl -sS -X POST -H "Content-Type:application/json" -d "{
    \"username\": \"${1}\",
    \"description\": \"This is a test-service\",
    \"repository\": {
-     \"url\": \"https://github.com/caicloud/cyclone\",
+     \"url\": \"https://github.com/gaocegege/cyclone\",
      \"vcs\": \"git\"
    },
    \"profile\": {

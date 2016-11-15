@@ -7,4 +7,6 @@ integration:
     - mkdir -p $WORKDIR
     - cp ./ -rf $WORKDIR
     - cd $WORKDIR
+    - ls -l
+    - ls -l ./tests
     - ./tests/run-unit-test.sh
