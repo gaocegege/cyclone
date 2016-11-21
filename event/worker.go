@@ -275,6 +275,7 @@ func toBuildContainerConfig(eventID api.EventID, cpu, memory int64) *docker_clie
 		AutoRemove:  true,
 		CPUShares:   cpu,
 		Memory:      memory,
+		Binds:       "/var/lib/docker:/var/lib/docker",
 	}
 
 	createContainerOptions := &docker_client.CreateContainerOptions{
